@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import { GlobalStyle } from "../theme/globalStyles.js";
-import { darkTheme, lightTheme, styles } from "../theme/themes.js";
+import { GlobalStyle } from "../styles/globalStyles";
+import { darkTheme, lightTheme, truTheme } from "../styles/themes";
 import { ThemeProvider } from "styled-components";
-import Layout from "../components/Layout.js";
-import "../theme/styles.css";
+import Layout from "../components/Layout/Layout.js";
+import "../styles/styles.css";
 
 function MyApp({ Component, pageProps }) {
   const [theme, setTheme] = useState("dark");
   return (
     <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
       <GlobalStyle />
-      <Layout setTheme={setTheme} theme={theme}>
+      <Layout setTheme={setTheme} currentTheme={theme}>
         <Component {...pageProps} />
       </Layout>
     </ThemeProvider>

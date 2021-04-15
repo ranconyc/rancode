@@ -1,0 +1,21 @@
+{
+  "email": "ranco.nyc@gmail.com",
+  "title": "Social Links",
+  "socialLinks": [
+    {
+      "icon": "",
+      "title": "linkedIn",
+      "href": "https://www.linkedin.com/in/rancodesign/"
+    },
+    {
+      "icon": "",
+      "title": "codesendbox",
+      "href": ""
+    },
+    {
+      "icon": "",
+      "title": "Bēhance",
+      "href": "https://www.behance.net/rancohen3"
+    }
+  ]
+}

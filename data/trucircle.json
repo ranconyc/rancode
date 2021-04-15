@@ -1,0 +1,91 @@
+{
+  "name": "TruCitcle",
+  "type": "Ux / Ui Design",
+  "content": "I was hired by Trucircle to improve the web experience and grow the number of therapists who upgrade from the free directory plan to premium add-on services offered by Trucircle.",
+  "sections": [
+    {
+      "articles": [
+        {
+          "title": "Understanding The Site",
+          "content": "After meeting with the client, I wanted to better understand the current TruCircle site so I conducted a Heuristics Evaluation and Usability Testing with non-users to understand how fresh sets of eyes experience the website."
+        },
+        {
+          "title": "Finding",
+          "content": [
+            "The website has a lot of usability and accessibility issues",
+            "Number of services offered and associated pricing is not clear",
+            "The “Get Started for Free” call to action button was causing more users to sign up for the free directory plan without discovering other paid services the site offers."
+          ]
+        },
+        {
+          "title": "Understanding The User",
+          "content": "To deepen my understanding of the website I conducted 4 users interviews with therapists who currently use the site for their practices. I wanted to learn more about their experience with the site, what services they use, and how they find the tools on the site to help them to grow their practice."
+        },
+        {
+          "title": "Finding",
+          "content": [
+            "“I rely on technology to communicate with patients and for appointments when necessary”",
+            "“My personal brand is important to connect with the right patients”",
+            "“I want my patients to feel they are part of a trustworthy community”",
+            "“I want cost-efficient and easy-to-use tools for my practice”"
+          ]
+        }
+      ]
+    },
+    {
+      "articles": [
+        {
+          "title": "Persona"
+        },
+        {
+          "title": "Problem Statement",
+          "content": "When Mental Health Care Providers Look To Grow Their Practice On The TruCircle Platform, They Find It Difficult To Differentiate Between Or Get The Most Out Of The Upgraded Plans. Janet Is Signing Up For The Free Directory Plan Because She Doesn’t Fully Understand Or Is Not Aware Of The Value Provided In Upgraded Plans On TruCircle."
+        },
+        {
+          "title": "How Might We...",
+          "content": "“Help Healthcare Providers Using Trucircle To Understand The Advantages Of The Different Service Offerings So They Can Choose The Plan That Is Best For Them?”"
+        },
+        {
+          "title": "Feature Analysis Of Subscription Strategy",
+          "content": "From the user interviews I learned that there is a lot of competition in the market that some of our users already use, they also mentioned they don't want to spend more money or make more work. I researched the competitors’ subscription models to see how TruCIrcle compares and can improve their positioning in the market to make it easier for users to transfer to their services."
+        }
+      ]
+    },
+    {
+      "articles": [
+        {
+          "title": "Wireframes",
+          "content": "TruCircle’s primary goal was to increase the number of therapists who upgrade from the free directory plan to paid plans. Given the limited resources of the client, I focused on developing low-cost design changes that make it easier for therapists to understand the pricing and benefits of each plan."
+        },
+        {
+          "title": "HOME PAGE",
+          "content": "I first focused on the home page design in order to ensure users are not confused about what TruCircle’s purpose is, the services they offer, and the prices of available plans when they land on the site. I also added an embedded video that conveys key information about TruCircle. "
+        },
+        {
+          "title": "Old Design Analysis",
+          "content": "In the old design it was difficult to tell there is more information below the fold. users needed to click learn more and to the product and services Section however the button didn’t work as expected and caused frustration with users during usability testing. Then if you scroll down and didn’t leave the page, all the services were showing on the same page so you can discover them, but from the usability and user interviews I contacted I found out that a most of the user will sign up for the free directory by clicking “Get Started for Free” and are not discovering the other features TruCircle has to offer and will not understand the value TruCircle can add to their"
+        },
+        {
+          "title": "The New Design",
+          "content": "To avoid confusion and deliver a better understanding of the mission and services TruCircle has to offer I redesigned the home page and created a simple layout of the services options so the users can have a better understanding of the services available to choose from. If you want to learn more about the service you can click to link in to the services page and discover the benefits each service will add to their practice."
+        },
+        {
+          "title": "SERVICES PAGE",
+          "content": "I created a separate page for each service offered with more detailed information alongside UI screenshots of each service with easy navigation so that users can better understand and visualize what each service provides. I also included an option to get 14 days free trial so that users can understand the benefits of switching to TruCircle at no additional cost."
+        },
+        {
+          "title": "RECOMMENDATION SURVEY",
+          "content": "From the research I conducted I also found out that a lot of users have a hard time deciding what plan is right for them, so I created a quick survey that asks therapists about their practice, comfort level with technology, and communication styles to recommend a plan that fits them best."
+        },
+        {
+          "title": "SIGN UP PROCESS",
+          "content": "In the old design, therapists could only add one licensed state when creating an account. As a result, therapists who are licensed in more then one state would miss out on being found by more patients."
+        },
+
+        {
+          "content": "To help therapists reach more patients, I updated the sign up process to allow for adding multiple licensed states. In addition, I added the ability for therapists to choose their areas of specialty so that they can more easily attract the patients they can serve best from the first moment they become a member."
+        }
+      ]
+    }
+  ]
+}

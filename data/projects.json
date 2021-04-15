@@ -1,0 +1,229 @@
+[
+  {
+    "name": "Branger",
+    "path": "/works/Branger",
+    "type": "Ux / Ui Design",
+    "bgColor": "#D3D8C3",
+    "heroImg": "../img/BrangerHero.svg",
+    "content": "Branger is a chatbot app that strives to be your friendly guide to national parks. Branger app helps national parks visitors with creating a schedule for their trips to create the right equipment list, and sends you notifications if there are any changes that can effect your plan so users can make the most of their visit to the park.",
+    "sections": [
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "Understanding The Market",
+            "content": "To understand how we can improve the experience for park visitors out there, we started by looking at other apps and websites in the market that seek to help national park visitors to get a better sense of what gaps exist in the market and where there are opportunities to innovate."
+          },
+          {
+            "title": "Competitive Matrix",
+            "content": ""
+          }
+        ],
+        "images": [
+          {
+            "path": "../img/CompetitiveMatrixBranger.jpg",
+            "alt": "Competitive Matrix"
+          }
+        ]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "Learning To Know The Park Visitors",
+            "content": "To start learning more about national park visitors I conducted 4 users interviews with national park visitors who have been to 3 or more parks that were screen down using online survey. I wanted to learn more about how national park visitors pick their next park, where they research for information, what equipment they pack for the trip, and if the planning worked once they get to the park."
+          },
+          {
+            "title": "What we Found",
+            "content": [
+              "“I start my research at NPS.org but need to look for my experience information”",
+              "“I rely on park rangers for the most detailed, up-to-date information, when I have access to them”",
+              "“I rely on locals and past visitors to get details, tips, and advice”",
+              "“I like to plan so I know what I’m getting into”",
+              "“Scheduling hikes and activities are a must”",
+              "People use simple lists for organizing",
+              "Once inside the park, shops and supplies are limited"
+            ]
+          }
+        ]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "Persona",
+            "content": "Sharon Spends More Time Than She Wants Finding Information To Plan Her Trip, And When She Arrives She May Need To Spend More Time Changing The Plan Instead Of Enjoying The Park."
+          }
+        ],
+        "images": [{ "path": "../img/PersonaBranger.jpg", "alt": "Persona" }]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "Problem Statement",
+            "content": "When Travelers Are Planning A Trip To A National Park They Struggle To Find Effective Information And Must Rely On Multiple Sources, So They End Up Spending More Time On Planning And Less Time On Preparing."
+          },
+          {
+            "title": "How Might We...",
+            "content": "“Help Travelers To Find Reliable Information They Need For Planning The Trip In One Platform And Help Them Stay Organized With Planning So When They Get To The Park The Will Have No Surprises?”"
+          }
+        ]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "Choosing The Platform",
+            "content": " I want to create the best platform for users even when they’re in the park without network connectivity, so I decided to create a native mobile app."
+          }
+        ],
+        "images": [
+          { "path": "../img/FeatureAnalysisTru.jpg", "alt": "Feature Analysis" }
+        ]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "Partnering With The National Park Service",
+            "content": "I choose to partner with The National Park Service / NPS.gov because I want to bring their content to the users even when they are already in the park and off the grid. The National Park Service will add legitimacy since they are the governing entity of the parks. The information they provide is credible and they know the common questions among visitors."
+          }
+        ],
+        "images": [{ "path": "../img/wireframesTru.jpg", "alt": "Wireframes" }]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "Feature Prioritization",
+            "content": "From the data I collected in the interviews travelers repeatedly mentioned that they spend a lot of time doing research to help them to plan in advance but often real-time changes to weather, park construction, or crowds will require them to change their plans last-minute. As a result, I focused on how travelers start their trip planing process"
+          }
+        ],
+        "images": [
+          {
+            "path": "../img/oldHomePageTru.jpg",
+            "alt": "Old Home Page Design"
+          }
+        ]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "content": "Based on this insight, I decided to create a chat bot search app that helps you create a schedule for your next trip in the national park using APIs to get updated information from different resources to always be updated with weather, road changes, park reservation and new reviews."
+          }
+        ],
+        "images": [
+          { "path": "../img/oldServicesTru.jpg", "alt": "Old Services Design" }
+        ]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "The New Design",
+            "content": "To avoid confusion and deliver a better understanding of the mission and services TruCircle has to offer I redesigned the home page and created a simple layout of the services options so the users can have a better understanding of the services available to choose from. If you want to learn more about the service you can click to link in to the services page and discover the benefits each service will add to their practice."
+          }
+        ],
+        "images": [
+          { "path": "../img/NewHeroTru.jpg", "alt": "New Hero Design" },
+          { "path": "../img/NewHomeTru.jpg", "alt": "New Home Design" }
+        ]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "Usability Testing",
+            "content": "I started by creating a mid-fi prototype to test how users are going to react to the chat bot so I created a mid fi prototype to demonstrate the chat bot. "
+          },
+          {
+            "title": "Founding",
+            "content": [
+              "Titles for the tab bar icons need to be clearer.",
+              "Users didn’t understand that the first thing to do is  ask the bot.",
+              "Reviews were too small and not noticeable enough.",
+              "Users were looking for a way to save cards."
+            ]
+          },
+          {
+            "title": "Recommendation",
+            "content": [
+              "Creating a tab bar with a title only on the selected tab to make more space for text and more clearer titles.",
+              "Making the schedule tab the main tab and explaining to users that they can start a new schedule by looking for a park or activity.",
+              "Making the review button more noticeable.",
+              "Adding a new tab for liked cards."
+            ]
+          }
+        ],
+        "images": [
+          { "path": "../img/ServicesTru.jpg", "alt": "New Services Design" }
+        ]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "Find Parks And Activities",
+            "content": ""
+          }
+        ],
+        "images": [
+          { "path": "../img/SurveyStart.jpg", "alt": "Survey Design Start" }
+        ]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "Create A Schedule",
+            "content": ""
+          }
+        ],
+        "images": [
+          { "path": "../img/OldSignUp.jpg", "alt": "Old Sign Up Design" }
+        ]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "Create An Equipment List",
+            "content": ""
+          }
+        ],
+        "images": [
+          { "path": "../img/NewSignUp.jpg", "alt": "New Sign Up Design" },
+          {
+            "path": "../img/SignUpSteps.jpg",
+            "alt": "Sign Up Process"
+          }
+        ]
+      },
+      {
+        "bgColor": "#417331",
+        "articles": [
+          {
+            "title": "Stay Updated If There Are Any Changes In The Plan",
+            "content": ""
+          }
+        ],
+        "images": [
+          { "path": "../img/NewSignUp.jpg", "alt": "New Sign Up Design" },
+          {
+            "path": "../img/SignUpSteps.jpg",
+            "alt": "Sign Up Process"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "TravelMate",
+    "path": "/works/travelmate",
+    "type": "Full-Stack Development",
+    "bgColor": "orange",
+    "heroImg": "../img/BrangerHero.svg"
+  }
+]

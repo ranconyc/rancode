@@ -1,0 +1,13 @@
+{
+  "logo": {
+    "title": "RanCode",
+    "slug": "/"
+  },
+  "navLinks": [
+    {
+      "id": "dd9c9272987a11ebb6411bc635040a0c",
+      "title": "About",
+      "slug": "/about"
+    }
+  ]
+}
