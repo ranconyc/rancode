@@ -1,37 +1,60 @@
 import React from "react";
-import Image from "next/image";
-import Text from "../../components/Text/Text";
-import FindingCard from "../../components/FindingCard/FindingCard";
+import styled from "styled-components";
+import ProcessCard from "../../components/ProcessCard/ProcessCard";
+import ProjectHero from "../../components/ProjectHero/ProjectHero";
 import Section from "../../components/Section/Section";
 import data from "../../data/trucircle.json";
-import styled from "styled-components";
+import { BaseContainer, FlexBox } from "../../styles/globalStyles";
 
-const Hero = styled(Section)`
-  text-align: center;
-  height: calc(100vh - 60px);
-  padding: 4.5rem 0;
-  > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+const Content = styled.div`
+  padding: 2em 0 4em 0;
+
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 3em;
+  }
+  h3 {
+    font-size: 1.728rem;
+    margin-bottom: 0.5em;
+  }
+`;
+
+const Process = styled(FlexBox)`
+  justify-content: center;
+  & > * {
+    flex-basis: calc(50% - 0.5em);
+    margin: 0 0.5em 0.5em 0;
   }
 `;
 
 const TrucirclePage = (props) => {
   console.log("tru", data);
-  console.log(props);
-
   return (
     <>
-      <Hero>
-        <div>
-          <Image src="/heroTru.png" width={960} height={700} />
-          <Text as="h3" m="1.5rem 0">
-            {data.name}
-          </Text>
-        </div>
-        <Text as="p">SCROLL FOR MORE</Text>
-      </Hero>
+      <ProjectHero />
+      <Section>
+        <BaseContainer>
+          <Content>
+            <h2>ABOUT THE PROJECT</h2>
+            <h3>Explaining therapists the power of telemedicine</h3>
+            <p>
+              I was hired by Trucircle to improve the web experience and grow
+              the number of therapists who upgrade from the free directory plan
+              to premium add-on services offered by Trucircle.
+            </p>
+          </Content>
+          <h5>Process</h5>
+          <Process wrap="true" height="auto">
+            {data.steps.map((step) => (
+              <ProcessCard
+                icon={step.icon}
+                title={step.title}
+                tools={step.tools}
+              />
+            ))}
+          </Process>
+        </BaseContainer>
+      </Section>
     </>
   );
 };

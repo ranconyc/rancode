@@ -5,43 +5,42 @@ import Text from "../Text/Text";
 import Image from "next/image";
 import styled from "styled-components";
 import Link from "next/link";
+import { FlexBox, FlexItem } from "../../styles/globalStyles";
 
-const Container = styled(Section)`
+const Container = styled(FlexBox)`
   a {
     height: 100%;
-    display: grid;
-    place-items: center;
-
-    h1 {
-      margin-top: 1em;
-      font-size: 2.5rem;
-    }
+    width: 100%;
   }
-`;
-
-const Content = styled.div`
+  h1 {
+    margin-top: 1em;
+    font-size: 2.5rem;
+    padding-bottom: 1.5em;
+  }
   text-align: center;
-  width: 100%;
 `;
 
 const ProjectSection = ({ imgSrc, title, slug, ...props }) => {
-  // PSODO CODE HERE
-  // create a flex box
-  // create 2 childern with flex-basis the
-  // 100% on small screens and 50% on large screenshots
-
   return (
-    <Container hero {...props}>
-      <Link href={slug}>
-        <a>
-          <Content>
-            <Image src={imgSrc} width={270} height={260} layout="responsive" />
+    <Link href={slug}>
+      <a>
+        <Container
+          wrap="true"
+          align="center"
+          padding="2em 0"
+          as="section"
+          {...props}
+        >
+          <FlexItem basis="100%">
+            <Image src={imgSrc} width="270" height="260" />
+          </FlexItem>
+          <FlexItem basis="100%">
             <Text as="h1">{title}</Text>
             <p>LEARN MORE</p>
-          </Content>
-        </a>
-      </Link>
-    </Container>
+          </FlexItem>
+        </Container>
+      </a>
+    </Link>
   );
 };
 

@@ -34,10 +34,8 @@ const StyledCard = styled(Card)`
 
 const FindingCard = ({ content, ...props }) => {
   return (
-    <StyledCard {...props}>
-      <li>
-        <p>{content}</p>
-      </li>
+    <StyledCard {...props} as="li">
+      <p>{content}</p>
     </StyledCard>
   );
 };

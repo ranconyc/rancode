@@ -2,6 +2,28 @@
   "name": "TruCitcle",
   "type": "Ux / Ui Design",
   "content": "I was hired by Trucircle to improve the web experience and grow the number of therapists who upgrade from the free directory plan to premium add-on services offered by Trucircle.",
+  "steps": [
+    {
+      "icon": "FaLightbulb",
+      "title": "Discovery",
+      "tools": ["Heuristics Evaluation", "Usability Testing", "User Interviews"]
+    },
+    {
+      "icon": "FaSearch",
+      "title": "Research",
+      "tools": ["Persona", "Feature Analysis"]
+    },
+    {
+      "icon": "FaPencilRuler",
+      "title": "Design",
+      "tools": ["Wireframes", "Design Guidelines", "Prototyping"]
+    },
+    {
+      "icon": "FaMobileAlt",
+      "title": "Testing",
+      "tools": ["User Testing", "Next Step"]
+    }
+  ],
   "sections": [
     {
       "articles": [

@@ -1,26 +1,40 @@
 {
   "title": "About Me",
   "content": "I’m a UX/UI Designer and Full-Stack Developer passionate about the way humans interact with and experience the digital world. After completing rigorous certificate programs in both UX/UI design and web-development, I gained the knowledge and skills to research, ideate, and build digital products using today's most updated technologies. My approach to design is always centered around solving problems with pragmatic, simple solutions. My comfort in front-end and back-end coding languages coupled with my obsession around visual design and usability help make me a team-player who can thrive working with both technical and creative personalities. While there are many reasons I love what I do, making an impact on users’ lives and my drive to always continue learning and remain at the forefront of what’s possible are ultimately what keep me going. Let’s make something great together.",
-  "image": { "path": "../images/Me.jpg", "alt": "Me in 1994" },
+  "image": { "path": "/Me.jpg", "alt": "Me in 1994 on the way to the USA" },
   "education": [
     {
+      "image": "/leWagon.png",
       "name": "Le Wagon",
-      "topic": "Full-Stack Web Development Immersive",
+      "subject": "Full-Stack Development Immersive",
       "link": "https://www.lewagon.com/web-development-course/full-time"
     },
     {
+      "image": "/ga.png",
       "name": "General Assembly",
-      "topic": "UX/UI Design Immersive",
+      "subject": "UX/UI Design Immersive",
       "link": "https://generalassemb.ly/education/user-experience-design-immersive/new-york-city"
     }
   ],
   "skills": [
-    { "title": "HTML5", "icon": "<ImHtmlFive />" },
-    { "title": "CSS", "icon": "" },
-    { "title": "JavaScript", "icon": "" },
-    { "title": "React", "icon": "" },
-    { "title": "Styled-Components", "icon": "" },
-    { "title": "Github", "icon": "" },
-    { "title": "RESTful APIs", "icon": "" }
+    { "name": "HTML5", "icon": "SiHtml5" },
+    { "name": "CSS", "icon": "SiCss3" },
+    { "name": "JavaScript", "icon": "SiJavascript" },
+    { "name": "NodeJS", "icon": "SiNodeDotJs" },
+    { "name": "React", "icon": "SiReact" },
+    { "name": "NextJS", "icon": "SiNextDotJs" },
+    { "name": "Gatsby", "icon": "SiGatsby" },
+    { "name": "React-Router", "icon": "SiReactrouter" },
+    { "name": "Redux", "icon": "SiRedux" },
+    { "name": "Styled-Components", "icon": "SiStyledComponents" },
+    { "name": "Ruby", "icon": "SiRuby" },
+    { "name": "Ruby-on-Rails", "icon": "SiRails" },
+    { "name": "Github", "icon": "SiGithub" },
+    { "name": "MongoDB", "icon": "SiMongodb" },
+    { "name": "PostMan", "icon": "SiPostman" },
+    { "name": "SQL", "icon": "AiOutlineConsoleSql" },
+    { "name": "RESTful APIs", "icon": "AiTwotoneApi" },
+    { "name": "Dev-Tools", "icon": "SiGooglechrome" },
+    { "name": "Sketch", "icon": "SiSketch" }
   ]
 }

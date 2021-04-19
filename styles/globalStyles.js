@@ -8,6 +8,17 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 992px) {
+    font-size: 20px;
+  }
+}
 
 html, body{
   box-sizing: border-box;
@@ -90,11 +101,19 @@ export const size = css`
 
 // layout
 export const BaseContainer = styled.div`
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   height: 100%;
   width: 90%;
-  max-width: 70ch;
+  max-width: 90%;
   margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    max-width: 750px;
+  }
+
+  @media screen and (min-width: 992px) {
+    max-width: 970px;
+  }
 `;
 
 export const Card = styled.div`
@@ -106,4 +125,35 @@ export const Card = styled.div`
       color: ${theme.secondary};
       border-radius: ${theme.radius.s};
     `};
+`;
+
+export const FlexBox = styled.div`
+  display: flex;
+  flex-wrap: ${({ wrap }) => wrap && "wrap"};
+  flex-direction: ${({ column }) => column && "column"};
+  justify-content: ${({ justify }) => justify && justify};
+  align-items: ${({ align }) => align && align};
+  height: ${({ height }) => height && height};
+  background: ${({ bgColor }) => bgColor && bgColor};
+  padding: ${({ padding }) => padding && padding};
+`;
+
+export const FlexItem = styled.div`
+  flex-shrink: ${({ shrink }) => shrink};
+  flex-basis: ${({ basis }) => basis};
+  flex-grow: ${({ grow }) => grow};
+  text-align: ${({ align }) => align && align};
+  height: ${({ height }) => height && height};
+  background: ${({ bgColor }) => bgColor && bgColor};
+  color: ${({ color }) => color && color};
+  margin: ${({ margin }) => margin && margin};
+  padding: ${({ padding }) => padding && padding};
+
+  @media screen and (min-width: 768px) {
+    flex-basis: ${({ mBasis }) => mBasis};
+  }
+
+  @media screen and (min-width: 992px) {
+    flex-basis: ${({ lBasis }) => lBasis};
+  }
 `;

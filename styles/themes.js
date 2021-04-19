@@ -4,11 +4,11 @@ const styles = {
     primary: `"Montserrat", sans-serif`,
   },
   fontSize: {
-    h1: "4.209rem",
-    h2: "3.157rem",
-    h3: "2.369rem",
-    h4: "1.777rem",
-    h5: "1.333rem",
+    h1: "2.488rem",
+    h2: "2.074rem",
+    h3: "1.728rem",
+    h4: "1.44rem",
+    h5: "1.2rem",
     h6: "1rem",
     subtitle1: "1rem",
     subtitle2: "0.833rem",
@@ -21,9 +21,9 @@ const styles = {
     l: "0.75rem",
   },
   breakpoints: {
-    s: "only screen and (max-width: 37.5rem)",
-    m: "only screen and (max-width: 52.5rem)",
-    l: "only screen and (max-width: 62rem)",
+    s: "only screen and (min-width: 37.5rem)",
+    m: "only screen and (min-width: 768px)",
+    l: "only screen and (min-width: 992px)",
   },
 };
 // Dark Theme
@@ -48,7 +48,7 @@ export const lightTheme = {
   secondary: `#fff`,
   textPrimary: `#000`,
   textSecondary: `#fff`,
-  bgColor: `linear-gradient(344deg, #FCFCFC 0%, #F9F9F9 100%);`,
+  bgColor: `linear-gradient(344deg, #FCFCFC 0%, #F9F9F9 100%)`,
   ...styles,
 };
 
@@ -59,7 +59,7 @@ export const truTheme = {
   secondary: `#14498F`,
   textPrimary: `#fff`,
   textSecondary: `#89C4E5`,
-  bgColor: `linear-gradient(180deg, #2D7EC1 0%, #14488E 100%);)`,
+  bgColor: `linear-gradient(180deg, #2D7EC1 0%, #14488E 100%)`,
   ...styles,
 };
 

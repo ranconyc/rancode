@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { BaseContainer } from "../../styles/globalStyles";
 
 const Container = styled.section`
   height: ${(props) => (props.hero ? "calc(100vh - 60px)" : "auto")};
@@ -8,14 +7,8 @@ const Container = styled.section`
   color: ${({ color }) => color && color};
 `;
 
-const Content = styled(BaseContainer)``;
-
 const Section = ({ children, ...props }) => {
-  return (
-    <Container {...props}>
-      <Content>{children}</Content>
-    </Container>
-  );
+  return <Container {...props}>{children}</Container>;
 };
 
 export default Section;

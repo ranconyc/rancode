@@ -3,8 +3,9 @@ import Image from "next/image";
 import Text from "../components/Text/Text";
 import Section from "../components/Section/Section";
 import styled from "styled-components";
+import { BaseContainer } from "../styles/globalStyles";
 
-const Content = styled.div`
+const Content = styled(BaseContainer)`
   padding-top: 4em;
   display: flex;
   flex-direction: column;
@@ -28,6 +29,7 @@ export default function Home(props) {
         <title>RAN COHEN | HOME</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Section>
         <Content>
           <Text as="h3">
